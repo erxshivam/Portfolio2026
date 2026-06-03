@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "My Portfolio Website",
-    description: "Responsive portfolio built using React and Bootstrap.",
+    description: "A modern and responsive personal portfolio website built using React and Bootstrap. It showcases my technical skills, projects, education, and achievements through an interactive and user-friendly interface. The website features smooth navigation, responsive design, and optimized performance to provide a seamless experience across all devices.",
     image: "/projects/ppp1.png",
     tags: ["React", "Bootstrap", "JavaScript"],
     demoUrl: "https://erxshivam.vercel.app/",
@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "Exam Management System",
     description:
-      "A full-stack MERN application for managing exams, questions, student records, and results with secure authentication.",
+      "A full-stack MERN application designed to streamline the examination process for students and administrators. It includes features such as student registration, exam creation, question management, online test submission, result generation, and performance tracking. The platform ensures secure authentication and efficient exam management through a centralized dashboard.",
     image: "/projects/ppp2.jpeg",
     tags: ["React", "Node.js", "Express","MongoDB"],
     demoUrl: "https://erxshivam-examprep.vercel.app/",
