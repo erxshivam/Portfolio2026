@@ -7,8 +7,8 @@ const projects = [
     description: "Responsive portfolio built using React and Bootstrap.",
     image: "/projects/ppp1.png",
     tags: ["React", "Bootstrap", "JavaScript"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://erxshivam.vercel.app/",
+    githubUrl: "https://github.com/erxshivam/Portfolio2026",
   },
   {
     id: 2,
@@ -17,19 +17,19 @@ const projects = [
       "A full-stack MERN application for managing exams, questions, student records, and results with secure authentication.",
     image: "/projects/ppp2.jpeg",
     tags: ["React", "Node.js", "Express","MongoDB"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://erxshivam-examprep.vercel.app/",
+    githubUrl: "https://github.com/erxshivam/ExamPrep",
   },
   {
-    id: 3,
-    title: "Myntra Clone",
-    description:
-      "A frontend clone of the Myntra shopping platform built using HTML, CSS, and JavaScript, featuring product grids and interactive UI components",
-    image: "/projects/ppp3.png",
-    tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  id: 3,
+  title: "MockVerse AI",
+  description:
+  "A full-stack AI-powered interview preparation platform built with the MERN stack, featuring voice-based mock interviews, AI-generated questions, ATS score analysis, interview history tracking, performance analytics, and personalized AI feedback to help users improve their interview skills and job readiness.",
+  image: "/projects/ppp3.png",
+  tags: ["React", "Node.js", "Express.js", "MongoDB", "AI", "Tailwind CSS"],
+  demoUrl: "https://mockverse-ai.vercel.app",
+  githubUrl: "https://github.com/erxshivam/mockverse-ai",
+},
 ];
 
 export const ProjectsSection = () => {
@@ -61,11 +61,14 @@ export const ProjectsSection = () => {
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
-                      {tag}
-                    </span>
-                  ))}
+                  {project.tags.map((tag, index) => (
+  <span
+    key={`${tag}-${index}`}
+    className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+  >
+    {tag}
+  </span>
+))}
                 </div>
 
                 <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>

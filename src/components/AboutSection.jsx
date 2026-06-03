@@ -16,7 +16,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              I am a MERN stack developer focused on building clean, responsive, and user-friendly web applications. I enjoy solving problems through code and constantly improving my skills with modern web technologies. I believe in writing clean, maintainable code and creating meaningful digital experiences that balance functionality and design.
+              I am a MERN Stack Developer focused on building scalable, responsive, and user-friendly web applications. I enjoy solving real-world problems through code and continuously improving my skills with modern web technologies. I believe in writing clean, maintainable code and creating meaningful digital experiences that balance functionality, performance, and design.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -26,7 +26,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="projects/Resume.pdf"
+                href="projects/Resume2026.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -43,7 +43,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
                   <p className="text-muted-foreground">
-                    Building responsive and functional web apps using React, Node.js, Express, and MongoDB, with a focus on clean architecture and usability.
+                    Building scalable and responsive full-stack web applications using React.js, Node.js, Express.js, and MongoDB, with a focus on performance, clean architecture, and user experience.
                   </p>
                 </div>
               </div>
@@ -56,7 +56,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive, visually balanced interfaces that enhance user engagement and clarity.
+                    Designing intuitive and visually appealing user interfaces that enhance usability, accessibility, and overall user engagement.
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">API Integration</h4>
                   <p className="text-muted-foreground">
-                    Connecting front-end interfaces with backend services and working with REST APIs to enable dynamic and data-driven applications.
+                    Integrating REST APIs and backend services to build dynamic, data-driven applications with seamless communication between client and server.
                   </p>
                 </div>
               </div>

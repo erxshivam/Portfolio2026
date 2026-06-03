@@ -1,3 +1,4 @@
+import ChatBot from "../components/ChatBot";
 import { Navbar } from "../components/Navbar";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
@@ -29,6 +30,8 @@ export const Home = () => {
 
       {/* Footer */}
       <Footer />
+      {/* Chat Bot */}
+      <ChatBot />
     </div>
   );
 };

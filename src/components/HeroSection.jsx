@@ -9,16 +9,20 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
+            <span className="opacity-0 animate-fade-in">
+              Hi, I'm
+            </span>
+
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}
-              Shivam
+              {" "}Shivam
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I am a MERN Stack Developer with a strong frontend focus and a passion for clean, user-friendly interfaces. I love turning complex problem into simple and elegant solution.
-          </p>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+  Building scalable full-stack web applications using React.js, Node.js,
+  Express.js, and MongoDB. Passionate about creating modern, performant,
+  and user-focused digital experiences.
+</p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
@@ -29,7 +33,9 @@ export const HeroSection = () => {
       </div>
 
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-        <span className="text-sm text-muted-foreground mb-2"> Scroll </span>
+        <span className="text-sm text-muted-foreground mb-2">
+          Scroll
+        </span>
         <ArrowDown className="h-5 w-5 text-primary" />
       </div>
     </section>
